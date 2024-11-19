@@ -84,17 +84,33 @@ span{
     margin-left: 40px;
 }
 @media screen and (max-width:700px) {
+    .banner img{
+        width: 100vw;
+    }
     #t1{
         display: inline-block;
     }
+    #t2{
+        width: 100vw;
+    }
+    #t2b{
+        width: 100%;
+        display: block;
+    }
+    #t2c{
+        
+    }
     #t2a{
-        display: inline-flexbox;
+        display: flex;
     }
     #h1{
         width: fit-content;
        
     }
-    
+    #h1a{
+        display: none;
+    }
+
     #b1{
         display: grid;
         grid-template-columns: 50% 50%;
